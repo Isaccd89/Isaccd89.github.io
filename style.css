@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    height: 100%;
+    font-size: 100%;
+    background: linear-gradient(45deg, #301f25 0%, #4E2B30 29%, #613D45 60%, #734550 92%, #734550 100%);
+    background-attachment: fixed;
+
+
+
+}
+   
+
+.h11{
+    font-family: 'Inconsolata';
+    font-size: 80px;
+    color: #3d1e1e;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.h22{
+    font-family: 'Inconsolata';
+    font-size: 50px;
+    color: #3d1e1e;
+    margin: 50px;
+
+}
+
+.p1{
+    font-family: 'Inconsolata';
+    width: 700px;
+    margin: 50px;
+    font-size: 30px;
+}
+
+.cabecalho{
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    color: #df8fa9;
+
+}
+
+.menu{
+    display:flex;
+    gap: 50px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botaoconteudo{
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    height: 60px;
+    margin: 40px;
+    background-color: #df8fa9;
+    font-family: 'Inconsolata';
+    color: #301f25;
+    font-size: 30px;
+    border-color: #df8fa9;
+    border-radius: 16px;
+    
+}
+
+.box {
+    width: 91%;
+    background-color: #ffdde3;
+    border: 40px transparent;
+    padding: 60px;
+    margin: 90px;
+    border-radius: 30px;
+
+    
+}
+
+#foto_perfil{
+    border-radius: 400px;
+    float: right;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#df8fa9;
+}
+
+form{
+    padding: 16px;
+    width: 16px*20;
+    margin: 0 auto;
+}
+
+.segment{
+    padding: 16px*2 0;
+    text-align: center;
+}
+button, input{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 16px*20;
+    padding: 16px;
+    background-color:#e9bdc6;
+    text-shadow: 1px 1px 0 #734550;
+}
+button {
+    color:#301f25;
+    font-weight: bold;
+    border-radius: 20px;
+    font-weight: 600;
+}
+input {
+    margin-right: 16px/2;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.icon {
+    margin-right: 0; 
+}
+label {
+    margin: 0;
+    flex: 1;
+}
